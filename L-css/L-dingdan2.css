@@ -21,29 +21,36 @@ html,body{
 	z-index: 66;
 	overflow: hidden;
 }
-.l-success img.succ-back{
-	margin-top: 3.15rem;
-	margin-left: 1.4rem;
+.l-success .l-subox{
+	width: 4.6rem;
+	height: 8.2rem;
+	position:relative;
+	top:50%;
+	left: 50%;
+	margin-top:-4.1rem ;
+	margin-left: -2.3rem;
+}
+.l-success img.succ-back{	
 	width: 4.6rem;
 }
 .l-success img.succ-x{
-	margin-top: 0.55remrem;
-	margin-left: 3.35rem;
+	margin-top: 0.4rem;
+	margin-left:1.85rem;
 	width: 0.92rem;
 }
 .l-success a{
 	display: block;
 	position: absolute;
-	bottom: 4rem;
-	left: 2.2rem;
+	top: 4.9rem;
+	left:0.8rem;
 }
 .l-success a img{
 	width: 2.99rem;
 }
 .l-success h1{
 	position: absolute;
-	bottom: 5.5rem;
-	left: 1.8rem;
+	top:4.1rem;
+	left: 0.4rem;
 	font-size: 0.38rem;
 	color: #f6c11f;
 	font-style: italic;
