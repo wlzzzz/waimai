@@ -262,7 +262,7 @@ ul.l-block{
 }
 
 .l-bot{
-	width: 95%;
+	width: 92%;
 	height: 0.55rem;
 	margin-left: 0.3rem;
 	margin-top: 0.4rem;
@@ -279,23 +279,22 @@ ul.l-block{
 	margin-right: 0.2rem;	
 }
 .l-bot .dizhi{
-	float: left;
+	float:right;
+	width: auto;
+	height: 0.32rem;
+	line-height:0.32rem;
 	margin-top: 0.2rem;
-	margin-left: 0.5rem;
 }
 .l-bot .dizhi img{
 	width: 0.21rem;
 	display: block;
 	float: left;
-	margin-top: 0.05rem;
-}
-.l-bot .dizhi span.s{
-	margin-top: 0.03rem;
+	margin-top: 0.02rem;
 }
 .l-bot .dizhi span{
 	font-size: 0.16rem;
 	color: #a3a3a3;
-	display: block;
+	display: inline-block;
 	float: left;
 	margin-left: 0.05rem;
 }
