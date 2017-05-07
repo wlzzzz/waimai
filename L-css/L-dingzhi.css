@@ -118,6 +118,7 @@ html{
 	width:0.53rem ;
 	height:0.53rem;
 	background-image: url(../L-img/dz-y.png);
+	background-repeat:no-repeat;
 	background-size: 0.51rem;
 	position: absolute;
 	right: 0.2rem;
@@ -241,6 +242,10 @@ html{
 }
 .l-di .l-jiage span:nth-child(1){
 	font-weight: bold;
+	width:0.63rem;
+	height: 0.41rem;
+	display: inline-block;
+	text-align: center;
 }
 .l-di .l-jiage span:nth-child(2){
 	font-size: 0.22rem;
