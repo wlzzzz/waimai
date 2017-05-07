@@ -11,5 +11,8 @@ $(function(){
 		$('.l-di .l-jiage span:nth-child(1)').html(money);
 		$('.l-di #l-gou h1').html($('.main li .l-mbox .xuan').length);
 	})
-	
+	var myScroll;
+	myScroll = new IScroll('#wrapper', {
+		mouseWheel: true,
+	})
 })
