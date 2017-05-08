@@ -36,14 +36,33 @@ $(function(){
 		e.preventDefault();
 		$('.l-success').css('display','none')
 	})
-
-
-
-
+	
+//	跳转
+     $(".l-main").eq(0).find('.l-tiao').on('touchstart',function(){
+     	location.href="xx-process.html";
+     })
+	$(".l-main").eq(1).find('.l-tiao').on('touchstart',function(){
+     	location.href="xx-pay-card.html";
+     })
+//	取消
+	$(".l-main").eq(0).find('.l-quxiao').on('touchstart',function(){
+     	$(".l-main").eq(0).find('li').eq($(this).index()).remove();
+     	myScroll.refresh();
+     })
+	$(".l-main").eq(1).find('.l-quxiao').on('touchstart',function(){
+     	$(".l-main").eq(1).find('li').eq($(this).index()).remove();
+     	myScroll.refresh();
+     })
+	$(".l-main").eq(2).find('.l-quxiao').on('touchstart',function(){
+     	$(".l-main").eq(2).find('li').eq($(this).index()).remove();
+     	myScroll.refresh();
+     })
+	
 	var myScroll;
 	myScroll = new IScroll('#wrapper', {
 		mouseWheel: true,
-//		scrollbars: true		
-	})
+//		scrollbars: true	
 		
+	})
+	
 })

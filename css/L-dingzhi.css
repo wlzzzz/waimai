@@ -1,19 +1,19 @@
 #wrapper {
+	height: auto;
 	position: absolute;
 	z-index: 1;
-	top: 0rem;
-	/*bottom: 2rem;*/
+	top: 3rem;
+	bottom: 0.98rem;
 	left: 0;
 	width: 100%;
-	height: 13.34rem;
 	background: #fef2f0;
 	overflow: hidden;
 }
-/*#scroller {
+#scroller {
 	position: absolute;
 	z-index: 1;
 	width: 100%;
-}*/
+}
 /*头部*/
 .l-top{
 	width: 100%;
@@ -39,13 +39,16 @@
 	top:0.4rem;
 	left: 0;
 }
-.l-top .l-tit span{
-	color: #fff;
+.l-top .l-tit a.l-a{
 	position: absolute;
-	top:0.3rem;
+	top:0.2rem;
 	left: 0;
 	float: left;
 	margin-left: 0.44rem;
+}
+.l-top .l-tit span{
+	color: #fff;	
+	font-size:0.35rem ;
 }
 .l-top .l-tit img.tit1{
 	width:2.36rem;
@@ -87,6 +90,11 @@
 	box-sizing: border-box;
 	border-radius:0.07rem 0 0 0.07rem  ;
 }
+.l-top .l-box ul li.xuan a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+}
 .l-top .l-box ul li img{ 
 	width: 1.84rem;
 }
@@ -111,7 +119,6 @@ html{
 	height: auto;
 	overflow: hidden;
 	margin-left:0.25rem;
-	margin-top:0.25rem;
 }
 .main li{
 	width:3.42rem ;
@@ -190,7 +197,7 @@ html{
 	font-style:italic;
 }
 .main li .l-mbox .l-jiage div span:nth-child(1){
-	
+	font-size: 0.34rem;
 	font-weight: bold;
 }
 .main li .l-mbox .l-jiage div span:nth-child(2){
@@ -262,6 +269,7 @@ html{
 	height: 0.41rem;
 	display: inline-block;
 	text-align: center;
+	font-size: 0.36rem;
 }
 .l-di .l-jiage span:nth-child(2){
 	font-size: 0.22rem;

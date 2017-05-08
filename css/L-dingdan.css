@@ -1,4 +1,5 @@
 #wrapper {
+	height: auto;
 	position: absolute;
 	z-index: 1;
 	top: 3rem;
@@ -26,6 +27,9 @@ html,body{
 	height:100%;
 	position:relative;
 	overflow:hidden;
+}
+.l-sufirst{
+	display: none;
 }
 .l-success{
 	width:100%;
