@@ -1,5 +1,6 @@
-$(function(){
+﻿$(function(){
 	$('.l-nav .l-box ul li').on('touchstart',function(){
+		
 		$(this).parent().children().removeClass('xuan').eq($(this).index()).addClass('xuan')
 		$('.l-main').removeClass('l-block').eq($(this).index()).addClass('l-block')
 		var i=$(this).index();
@@ -30,6 +31,7 @@ $(function(){
 			})
 			$(this).css('border-radius','0 0.07rem 0.07rem 0')
 		}
+		myScroll.refresh();
 	})
 //支付成功
 	$('.l-success .succ-x').on('touchstart',function(e){
