@@ -31,6 +31,14 @@ $(function(){
 			$(this).css('border-radius','0 0.07rem 0.07rem 0')
 		}
 	})
+//支付成功
+	$('.l-success .succ-x').on('touchstart',function(e){
+		e.preventDefault();
+		$('.l-success').css('display','none')
+	})
+
+
+
 
 	var myScroll;
 	myScroll = new IScroll('#wrapper', {
