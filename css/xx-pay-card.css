@@ -234,9 +234,13 @@ input{
 	border:0;
 	border-bottom: 0.01rem solid #333333;
 	margin: 0 .1rem;
-	color: #ff3f6f;
+	color: #f87462;
 	text-align: center;
 	outline:none;
+	font-size: .5rem;
+}
+input.color{
+	border-bottom: 0.01rem solid #f87462;
 }
 
 

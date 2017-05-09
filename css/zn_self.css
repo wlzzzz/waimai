@@ -144,15 +144,39 @@ header > span{
 }
 .zn_next > span{
 	display: block;
-	width:2rem;
-	height:0.5rem;
+	width:2.15rem;
+	height:0.57rem;
 	background:#FC6955;
-	margin:0.07rem auto;
+	margin:0.04rem auto;
 	border-radius:0.5rem;
 	font-size:14px;
 	color:#fff;
 	text-align: center;
-	line-height:0.5rem;
+	line-height:0.57rem;
+}
+.zn_next > span:before{
+	content:"";
+	display: block;
+	width:0.1rem;
+	height:0.1rem;
+	border-radius: 50%;
+	background:#FC6955;
+	position:absolute;
+	left:-0.07rem;
+	top:50%;
+	margin-top:-0.05rem;
+}
+.zn_next > span:after{
+	content:"";
+	display: block;
+	width:0.1rem;
+	height:0.1rem;
+	border-radius: 50%;
+	background:#FC6955;
+	position:absolute;
+	right:-0.06rem;
+	top:50%;
+	margin-top:-0.05rem;
 }
 .zn_chose{
 	width:6.3rem;
@@ -304,9 +328,25 @@ header > span{
 	display: block;
 	position: absolute;
 	left:0;
-	height:0;
+	top:0;
 	width:6.24rem;
 	height:0.3rem;
+}
+.zn_shenggao > ul{
+	position: absolute;
+	left:-0.12rem;
+	top:100%;
+	width:6.5rem;
+	height:0.3rem;
+	display: flex;
+	justify-content: space-between;
+}
+.zn_shenggao > ul >li{
+	height:100%;
+	width:auto;
+	line-height: 0.3rem;
+	font-size:0.1rem;
+	color:#333;
 }
 .zn_shenggao > div{
 	width:0.2rem;
@@ -315,17 +355,18 @@ header > span{
 	position:absolute;
 	left:-0.1rem;
 	top:-0.05rem;
+	z-index:2;
 }
 .zn_shenggao > div:after{
 	content: "";
 	display:block;
 	width:0;
 	height:0;
-	border:0.1rem solid rgba(0,0,0,0);
-	border-top:0.1rem solid #FC6955;
+	border:0.11rem solid rgba(0,0,0,0);
+	border-top:0.11rem solid #FC6955;
 	position:absolute;
 	left:0;
-	top:100%;
+	top:99.9%;
 }
 .zn_weight{
 	width:100%;

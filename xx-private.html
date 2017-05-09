@@ -22,7 +22,7 @@
 		</div>
 		<header>
 			<div>
-				<a href="">
+				<a href="zn_self.html">
 					<img src="img/xx-private01.png"/>
 				</a>
 			</div>
@@ -382,8 +382,12 @@
 	<script src="js/rem.js"></script>
 	<script src="js/zepto.min.js"></script>
 	<script>
-		$(".shades").on("touchend",function(){
-			$(".shade").css('display','none')
+		$(".shades").on("touchstart",function(event){
+			setTimeout(function(){
+				
+				$(".shade").css('display','none')
+			},200)
+//			event.stopPropagation();
 		})
 	</script>
 </html>

@@ -25,8 +25,12 @@ body,html{
 	height:6.73rem;
 	background:#fff;
 	border-radius: 0.1rem;
-	margin:2.9rem auto 0;
-	position: relative;
+	position: fixed;
+	left:0;
+	top:0;
+	bottom:0;
+	right:0;
+	margin:auto;
 }
 .zn_touxiang{
 	position: absolute;

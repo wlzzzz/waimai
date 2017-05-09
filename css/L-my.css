@@ -80,7 +80,6 @@ body{
 	line-height: 1.17rem;
 }
 .content li a .L-jt{
-	font-family: "宋体";
 	color: #D6C2C1;
 	font-weight: bold;
 	position: absolute;
@@ -99,7 +98,7 @@ body{
 	color: #353535;
 }
 .content li span{
-	font-size: 0.4rem;
+	font-size: 0.36rem;
 	padding: 0 0.1rem;
 }
 b{

@@ -98,7 +98,7 @@
 					<span>password</span>
 				</h4>
 				<div>
-					<input type="password" name="" id="" value="" readonly="true"/>
+					<input id="focus" type="password" name="" id="" value="" readonly="true"/>
 					<input type="password" name="" id="" value="" readonly="true"/>
 					<input type="password" name="" id="" value="" readonly="true"/>
 					<input type="password" name="" id="" value="" readonly="true"/>
@@ -113,8 +113,13 @@
 	<script src="js/jquery.validate.min.js"></script>	
 	<script src="js/zepto.min.js"></script>
 	<script>
+		
 		$(".bottom").on("touchend",function(){
 			$(".zhe").css('display','block')
+			setTimeout(function(){
+				
+				$("#focus").focus();
+			},200)
 		})
 		var aa=$("input[type='password']");
 	var number=0;
@@ -133,7 +138,7 @@
   			if($('.color').length==6){
 //				$('.cover').removeClass('active');
 //      		$('.zhe')[0].addEventListener('touchstart',function(){
-        			location.href='L-dingdan2.html';
+        			location.href='L-dingdan.html';
 //      		})
 			}
             this.value=this.value.replace(/^(.).*$/,'$1');
@@ -143,6 +148,6 @@
             aa[next].focus();
         }
 	}
-	aa[0].removeAttribute("readonly");
+	aa[0].removeAttribute("readonly");	
 	</script>
 </html>

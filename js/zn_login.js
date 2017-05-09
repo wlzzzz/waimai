@@ -14,7 +14,7 @@ $(document).ready(function(){
 		}else{
 			$(this).css("backgroundColor","#FC6955");
 			$(".zn_jinggao").hide();
-			location.href="";
+			location.href="zn_index.html";
 		}
 	})
 })
